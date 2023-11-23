@@ -1,0 +1,11 @@
+[package]
+name = "tower-defense-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix = "0.13"
+actix-web = "4"
+actix-web-actors = "4.1"
+uuid = { version = "0.8", features = ["v4", "serde"] }
+
