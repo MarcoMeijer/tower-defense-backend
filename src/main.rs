@@ -32,7 +32,7 @@ async fn main() -> std::io::Result<()> {
             .service(start_connection)
             .app_data(Data::new(lobby.clone()))
     })
-    .bind("127.0.0.1:9090")?
+    .bind("0.0.0.0:9090")?
     .run()
     .await
 }
